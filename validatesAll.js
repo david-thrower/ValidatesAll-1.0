@@ -4,7 +4,7 @@
 // restrictions you want for the field. Here is an example:
 //
 // If you had a page with a field for phone number, you will need to ensure that a user enters number that is 10 digits in lengts and 
-// a whole number is entered for the entry to be useful. Let's say have a variable named phoneNumber, you would use this cade to validate this field this way:
+// a whole number is entered for the entry to be useful. Let's say have a variable named phoneNumber, you would use this code to validate this field this way:
 // validateAll(phoneNumber, 1, null, null, null, "the phone number field");
 // validateAll(phoneNumber, 6, null, null, 10, "the phone number field");
 // This would render an alert reading "Please enter something in the phone number field that is a whole number." if anything not a whole number is entered.
