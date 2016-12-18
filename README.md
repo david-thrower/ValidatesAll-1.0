@@ -7,8 +7,8 @@ documentation:
 This function will allow numerous validations enforcing all sorts of requirements that can be used on one or many field(s) in a page. All you need to do is include this function in between the <script> and </script> tags on the page and call this function with the correct arguments that set what restrictions you want for the field. Here is an example:
 
 If you had a page with a field for phone number, you will need to ensure that a user enters number that is 10 digits in lengts and a whole number is entered for the entry to be useful. Let's say have a variable named phoneNumber, you would use this code to validate this field this way:
- <input type="textbox" name="Phone" onblur="validateAll(this.value, 1, null, null, null, 'the phone number field')">
- <input type="textbox" name="Phone" onblur="validateAll(this.value, 6, null, null, 10, 'the phone number field')">
+" <input type="textbox" name="Phone" onblur="validateAll(this.value, 1, null, null, null, 'the phone number field')"> "
+" <input type="textbox" name="Phone" onblur="validateAll(this.value, 6, null, null, 10, 'the phone number field')"> "
   
 This would render an alert reading "Please enter something in the phone number field that is a whole number." if anything not a whole number is entered. It will also render an alert reading "Please enter something in the phone number field that is 10 characters long." if a user enters something not 10 characters long. 
 
