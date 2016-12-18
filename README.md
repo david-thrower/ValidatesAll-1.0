@@ -1,4 +1,4 @@
-ValidatesAll-1.0
+ValidatesAll-1.0 - Click [RAW] to read full text. 
 
 This is a function that can be used to validate all sorts of restrictions on a field's input ...
 
