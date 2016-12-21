@@ -37,6 +37,6 @@ This is offered for anyone's use under the terms of the Apache License with the 
 This shall not be used in any software that is used for any of the following purposes:
 A. To commit any act of fraud, deceit, extortion, or for the production, sale, distribution, or marketing ofany illicit, obscene, or prohibited materials
 B. For critical applications such as operation of an aircraft controls, critical orienteering applications, or control of heavy machinery
-C. To use in any way that deprives another of their basic rights whether legally or illegally, promotes discrimination including promoting hate crime, encourages Female Genital Mutilation, or similar purposes
+C. To use this or any derivitive work as part of any site, document, or applccation which in any way deprives another of their basic rights whether legally or illegally or promotes depriving others of their rights (examples: promotes discrimination including promoting hate crime, encourages Female Genital Mutilation, or similar purposes)
 D. Use in war operations 
 E. Use in systems/apps/websites used to operate or promote an abortion facility  
