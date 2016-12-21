@@ -6,13 +6,11 @@ documentation:
 
 This function will allow numerous validations enforcing all sorts of requirements that can be used on one or many field(s) in a page. All you need to do is include this function in between the <script> and </script> tags on the page and call this function with the correct arguments that set what restrictions you want for the field. Here is an example:
 
-If you had a page with a field for phone number, you will need to ensure that a user enters number that is 10 digits in lengts and a whole number is entered for the entry to be useful. Let's say have a variable named phoneNumber, you would use this code to validate this field this way:
-" <input type="textbox" name="Phone" onblur="validateAll(this.value, 1, null, null, null, 'the phone number field')"> "
-" <input type="textbox" name="Phone" onblur="validateAll(this.value, 6, null, null, 10, 'the phone number field')"> "
+If you had a page with a field for phone number, you will need to ensure that a user enters number that is 10 digits in length for the entry to be useful. adding this function in an onblur attribute for the text  field with the argument 6 for the parameter datatype and 10 as the argument for the parameter length.  
   
-This would render an alert reading "Please enter something in the phone number field that is a whole number." if anything not a whole number is entered. It will also render an alert reading "Please enter something in the phone number field that is 10 characters long." if a user enters something not 10 characters long. 
+It will render an alert reading "Please enter something in the phone number field that is 10 characters long." if a user enters something not 10 characters long. 
 
-Now all you need to do is call this function in an onblur event with the selected arguments, and you can put any of these restrictions on a field entry without having to write any code other code! 
+Now all you need to do is call this function in an onblur event with the selected arguments, and you can put any of these restrictions on a field entry without having to write any code other code! To impose multiple restrictions, write a function in the script which calls this function multiple times, once with each restriction you want validated, then call the function you wrote in the onblur attribute. 
 
 INDEX OF PARAMETERS: 
 userInput is the input from the field on the user interface being validated.
@@ -24,7 +22,7 @@ Key for parameter 'dataType'
                 3 = Sets the restriction: Alphabetical strings without numbers or cpecial characters accepted, all others 
                     rejected 
                 4 = date   # reserved for future use.
-                5 = starts with - Sets the requirement for the rst few digits by setting the "StartsWith"                   
+                5 = starts with - Sets the requirement for the first few digits by setting the "StartsWith"                   
                     parameter with the requirement as an argument what the user's input should begin with. Set how many letters 
                     it should start with with the 'startsWithHowMany' parameter (for instance something that is being 
                     validated to start with AL should be set to 2).
